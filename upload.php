@@ -4,7 +4,7 @@ $targetDir = "uploads/";
 $watermarkImagePath = '2.png'; 
  
 $statusMsg = ''; 
-if(isset($_POST["submit"])){ 
+if(isset($_POST["submit"])){
     if(!empty($_FILES["file"]["name"])){ 
         // File upload path 
         $fileName = basename($_FILES["file"]["name"]); 
